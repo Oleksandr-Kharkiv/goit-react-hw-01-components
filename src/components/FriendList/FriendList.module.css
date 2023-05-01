@@ -1,9 +1,12 @@
 .friendList {
-    margin-top: 70px;
+    margin: 50px 0 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
     width: 300px;
-    height: 300px;
-    outline: 1px dashed red;
+    border-radius: 5px;
 }
