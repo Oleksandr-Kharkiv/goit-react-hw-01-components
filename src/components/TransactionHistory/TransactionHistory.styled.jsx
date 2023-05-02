@@ -1,17 +1,20 @@
-.transactionHistory {
+import styled from '@emotion/styled';
+
+export const TransactionTable = styled.table`
   margin: 50px auto 50px;
   width: 400px;
   display: flex;
   flex-direction: column;
   gap: 5px;
   box-shadow: var(--box-shadow);
-}
+`;
 
-.transactionHistory tr {
+export const TransactionTr = styled.tr`
   display: flex;
   justify-content: space-between;
-}
-.transactionHistory th {
+`;
+
+export const TransactionTh = styled.th`
   width: 100%;
   padding: 8px;
   font-weight: 700;
@@ -20,13 +23,16 @@
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   border-radius: 5px;
-}
-.transactionHistory tbody {
+`;
+
+export const TransactionThead = styled.thead``
+export const TransactionTBody = styled.tbody`
   display: flex;
   flex-direction: column;
   gap: 3px;
-}
-.transactionHistory td {
+`;
+
+export const Transaction = styled.td`
   width: 100%;
   padding: 5px;
   text-align: center;
@@ -47,4 +53,4 @@
     color: var(--second-text-color);
     cursor: pointer;
   }
-}
+`;
