@@ -36,15 +36,15 @@
   letter-spacing: 0.06em;
   background-color: var(--background-color-component);
   border-radius: 5px;
+}
 
-  &:first-of-type {
-    text-transform: capitalize;
-  }
+.transactionHistory td:first-of-type {
+  text-transform: capitalize;
+}
 
-  &:hover {
-    font-weight: 800;
-    background-color: var(--accent-color);
-    color: var(--second-text-color);
-    cursor: pointer;
-  }
+.transactionHistory td:hover {
+  font-weight: 800;
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+  cursor: pointer;
 }
