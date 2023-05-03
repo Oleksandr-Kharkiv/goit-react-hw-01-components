@@ -23,6 +23,7 @@ export const TransactionTh = styled.th`
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   border-radius: 5px;
+  box-shadow: var(--box-shadow);
 `;
 
 export const TransactionThead = styled.thead``

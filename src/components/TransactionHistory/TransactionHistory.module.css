@@ -20,6 +20,7 @@
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
 .transactionHistory tbody {
   display: flex;
